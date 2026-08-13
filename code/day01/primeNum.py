@@ -29,33 +29,3 @@ print(fouth[-1])"""
 # result=[x for x in words if all(ch.islower() for ch in x)]
 # print(result)
 
-
-class Vector:
-    def __init__(self, data):
-      self.data = list(data)
-    
-
-    def __add__(self, other):
-      new_data = [a + b for a, b in zip(self.data, other.data)]
-      return Vector(new_data)
-    
-
-    def __sub__(self, other):
-      new_data = [a - b for a, b in zip(self.data, other.data)]
-      return Vector(new_data) 
-
-    def __mul__(self, other):
-      return sum([a * b for a, b in zip(self.data, other.data)])
-       
-    def __repr__(self):
-      return f"Vector({self.data})"
-
-v1 = Vector([1, 2, 3])
-v2 = Vector([4, 5, 6])
-print(v1 + v2)
-
-v1 = Vector([1, 2, 3])
-v2 = Vector([4, 5, 6])
-print(v1 + v2)   # Vector([5, 7, 9])
-print(v1 - v2)   # Vector([-3, -3, -3])
-print(v1 * v2)   # 32

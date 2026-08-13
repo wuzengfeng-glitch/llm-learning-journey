@@ -28,3 +28,4 @@ print("norm_b=",norm_b)
 
 result=dot/(norm_a*norm_b)
 print("result=",result) 
+

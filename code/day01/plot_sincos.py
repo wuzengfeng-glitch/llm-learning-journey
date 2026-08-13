@@ -49,6 +49,60 @@ plt.grid(True)                           # 显示网格线
 # 注意 savefig 要写在 show() 之前 —— show() 关闭窗口后会清空当前图，
 # 之后再存就是空白图了。
 
-plt.savefig('sincos.png', dpi=150)   # 放在 show() 之前
+""" plt.savefig('sincos.png', dpi=150)   # 放在 show() 之前
 plt.show()
+ """
+
+# a=np.arange(0,5,1)
+# print(a)
+
+# b=np.linspace(0,10,4)
+# print(b)
+
+# c=np.zeros((3,4))
+# print(c)    
+
+
+# y=np.ones((2, 3, 4))
+# print(y)
+# print(y.shape,y.ndim )
+
+
+# z=np.ones((5,) )
+# print(z)
+# print(z.shape,z.ndim)   
+
+# jmm=np.array([1.0,2,3])
+# print(jmm.dtype)
+
+# print(np.linspace(0, 10, 2))
+# print(np.linspace(0, 10, 3))
+# print(np.linspace(0, 10, 5))
+
+
+t1=np.array([1,2,3])
+print(t1)
+print("t1.shape=", t1.shape, "t1.ndim=", t1.ndim)
+
+# t2=np.zeros((3,4))
+# print("t2=",  t2)
+
+# t3=np.ones((3,4))
+# print("t3=", t3)
+
+# t4=np.arange(0,10,2)
+# print("t4=", t4)    
+
+t5=np.linspace(0,10,5)
+print("t5=", t5)
+print("t5.shape=", t5.shape, "t5.ndim=", t5.ndim)
+
+t6=np.array([[1,2,3]])
+print("t6=", t6)
+print("t6.shape=", t6.shape, "t6.ndim=", t6.ndim)
+
+t7= np.array([1,2,3])
+print("t7=", t7)
+print("t7.shape=", t7.shape, "t7.ndim=", t7.ndim)
+
 
