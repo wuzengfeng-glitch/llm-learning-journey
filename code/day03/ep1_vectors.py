@@ -23,8 +23,3 @@ u2=np.array([3,4])
 print("u1+u2=", u1+u2)
 print("3*u1=", 3*u1)        
 
-
-
-
-
-# TODO: 看完 EP1 再写

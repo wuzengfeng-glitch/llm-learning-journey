@@ -20,9 +20,11 @@ llm-learning-journey/
 
 阶段 0 环境 → 阶段 1 数学/ML → 阶段 2 PyTorch/深度学习 → 阶段 3 Transformer/NLP → 阶段 4 大模型训练与微调 → 阶段 5 应用与部署
 
-详细计划见桌面 `learning-plan.md`（未同步到仓库）。
+**详细计划见 [`learning-plan.md`](./learning-plan.md)**（含每日主题、产出、里程碑、时间估算）。
 
 ## 进度
 
-- [x] Day 1 — 环境搭建 + Python/NumPy 自测（余弦相似度、列表推导、Vector 类、matplotlib）
-- [ ] Day 2 — NumPy 深入
+- [x] Day 1 — 环境搭建 + Python/NumPy 自测
+- [x] Day 2 — NumPy 深入 + numpy-100 前 15 题
+- [x] Day 3 — 3B1B 线性代数本质 EP1-4
+- [ ] Day 4 — 3B1B 线性代数本质 EP5-8（进行中）
